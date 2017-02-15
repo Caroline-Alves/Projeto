@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15/02/2017, 14:24:20
+    Author     : Caroline
+*/
+.texto{
+     animation-name: animacao;
+    animation-duration: 10s;
+    position: relative;
+    font-size: 100px;
+    
+    
+}
+
+.cubo{
+    background: blue;
+    width: 500px;
+    height: 500px;
+}
+
+.cubo:hover{
+    animation-name: animacao;
+    animation-duration: 10s;
+    position: relative;
+       
+}
+@keyframes animacao{
+/*from = Ideia de inicio */
+      /*from{
+          background: pink;
+           
+    }
+    /*De "from", para*/
+    /*to{
+        background: black;
+    }*/
+   /* 0%{
+        background: pink;
+    }
+    25%{
+        background: red;
+    }
+    75%{
+        background: blue;
+        
+    }
+    100%{
+        background: green;
+    }*/
+   from{
+         left:0px;
+   }
+   to{
+       
+       left:50px;
+   }
+   
+  
+   
+}
